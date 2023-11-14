@@ -21,22 +21,20 @@ const Navbar = () => {
       {/* Menu */}
 
       <ul className="hidden md:flex items-center">
-        <li>
-          <span className="text-[var(--green)]">01. </span>About
+        <li className="hover:text-[var(--green)] duration-300">
+          <span className="text-[var(--green)] ">01. </span>About
         </li>
-        <li>
+        <li className="hover:text-[var(--green)] duration-300">
           <span className="text-[var(--green)]">02. </span>Experience
         </li>
-        <li>
+        <li className="hover:text-[var(--green)] duration-300">
           <span className="text-[var(--green)]">03. </span>Work
         </li>
-        <li>
+        <li className="hover:text-[var(--green)] duration-300">
           <span className="text-[var(--green)]">04. </span>Contact
         </li>
-        <li>
-          <button className="border-solid border-2 border-[var(--green)] rounded-md text-[var(--green)] p-2">
-            Resume
-          </button>
+        <li className="hover:text-[var(--green)] duration-300">
+          <button>Resume</button>
         </li>
       </ul>
 
@@ -66,7 +64,7 @@ const Navbar = () => {
           <span className="text-[var(--green)]">04. </span>Contact
         </li>
         <li className="py-6 text-4xl">
-          <button className="border-solid border-2 border-[var(--green)] rounded-md text-[var(--green)] p-2">
+          <button className="border-solid border-2 border-[var(--green)] rounded-md text-[var(--green)] p-13">
             Resume
           </button>
         </li>
