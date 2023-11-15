@@ -5,14 +5,14 @@ const Hero = () => {
     <div className="w-full h-screen">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[var(--green)] mb-7">Hi, my name is</p>
+        <p className="text-[var(--green)] mb-5">Hi, my name is</p>
         <h1 className="text-[var(--lightest-slate)] text-4xl sm:text-7xl font-bold">
           Shayan Abedi.
         </h1>
-        <h2 className="text-[var(--slate)] text-4xl sm:text-7xl font-bold">
+        <h2 className="text-[var(--slate)] text-4xl sm:text-7xl font-bold mt-4">
           I build things for the web.
         </h2>
-        <p className="text-[var(--slate)] mt-10">
+        <p className="text-[var(--slate)] mt-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
           perferendis, aliquid a odit, ut libero maxime sunt id neque quis
           dolorum animi? Nemo obcaecati distinctio sunt, tempore magnam illo
